@@ -2,18 +2,6 @@
 # yarn lockfile v1
 
 
-"@beyonk/async-script-loader@^2.2.2":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@beyonk/async-script-loader/-/async-script-loader-2.3.0.tgz#60868bff547f2122488f58b3b31b6bcde9a13dce"
-  integrity sha512-/vbDM5j8OHmtnWLx87sef0T/jGWVvZV6ILm3QFLpfRwSg0KmhQoAZnOT4XSaUL/EjOC9eMzgX5qtS2jztKzY2A==
-
-"@beyonk/svelte-google-analytics@^2.6.4":
-  version "2.6.4"
-  resolved "https://registry.yarnpkg.com/@beyonk/svelte-google-analytics/-/svelte-google-analytics-2.6.4.tgz#b4458d14cd749d9169b9251a24f2e8260c3bcd7c"
-  integrity sha512-m2P1fs36qObCLtIZ9edLC62RHLrGVknaKuE4uEBQk5+Jfy1apa7DOIT0Jq1PvScyrndV62FvyjUUrWwrXjYbmw==
-  dependencies:
-    "@beyonk/async-script-loader" "^2.2.2"
-
 "@esbuild/android-arm@0.15.18":
   version "0.15.18"
   resolved "https://registry.yarnpkg.com/@esbuild/android-arm/-/android-arm-0.15.18.tgz#266d40b8fdcf87962df8af05b76219bc786b4f80"
@@ -35,13 +23,6 @@
     magic-string "^0.26.7"
     svelte-hmr "^0.15.1"
     vitefu "^0.2.2"
-
-carbon-components-svelte@^0.70.12:
-  version "0.70.13"
-  resolved "https://registry.yarnpkg.com/carbon-components-svelte/-/carbon-components-svelte-0.70.13.tgz#f6f125418c8ab451c7df11f6d2bdff9974bd36c9"
-  integrity sha512-p6wX8004BM6DrrLH1JJWbkR/VybU0gra+jDWlSW1V2aO8XmAz81evnDLZuTrvbHNkEXPiaC+athSjNsBOf0SjA==
-  dependencies:
-    flatpickr "4.6.9"
 
 debug@^4.3.4:
   version "4.3.4"
@@ -183,11 +164,6 @@ esbuild@^0.15.9:
     esbuild-windows-64 "0.15.18"
     esbuild-windows-arm64 "0.15.18"
 
-flatpickr@4.6.9:
-  version "4.6.9"
-  resolved "https://registry.yarnpkg.com/flatpickr/-/flatpickr-4.6.9.tgz#9a13383e8a6814bda5d232eae3fcdccb97dc1499"
-  integrity sha512-F0azNNi8foVWKSF+8X+ZJzz8r9sE1G4hl06RyceIaLvyltKvDl6vqk9Lm/6AUUCi5HWaIjiUbk7UpeE/fOXOpw==
-
 fsevents@~2.3.2:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
@@ -323,6 +299,11 @@ svelte-mui@^0.5.7:
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/svelte-mui/-/svelte-mui-0.5.7.tgz#4fcea852c8d630ee80e0deb3790de5720546e891"
   integrity sha512-I2he6DzecjQVhUyHIR5gSnRPFynk7bX6iYZ90SSKMmFyDZ+HnqMfefE9OAkrQzmb8TSQ+inOM+GF83Y4KBsvUg==
+
+svelte-tabs@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/svelte-tabs/-/svelte-tabs-1.1.0.tgz#093c5fdac57cbb0e6ba81e717d68fb9da7239208"
+  integrity sha512-bCynxgET2uvqpB6xf/dVyqHjzmumRURQyh2QqXlrki8NxzO7h2WghF8qgpb5qeB5NTX1bMU+9Q5Hf5ey2WLaMg==
 
 svelte@^3.52.0:
   version "3.54.0"
