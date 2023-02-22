@@ -15,7 +15,6 @@
     "vite": "^3.2.3"
   },
   "dependencies": {
-    "svelte-carousel": "^1.0.20",
     "svelte-tabs": "^1.1.0"
   }
 }

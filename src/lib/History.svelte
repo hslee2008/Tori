@@ -362,7 +362,7 @@
 
   let count = 0
 
-  const TouchEvent = () => {
+  const Following = () => {
     count++
 
     if (count % 2 == 0) {
@@ -373,9 +373,13 @@
       if (randomStart) RandomNext()
     }
   }
+
+  window.addEventListener('keydown', function (e) {
+    if (e.keyCode === 32 || e.keycode === 13) Following()
+  })
 </script>
 
-<div class="special" on:touchstart={TouchEvent}>
+<div class="special" on:touchstart="{Following}">
   <Tabs>
     <TabList>
       <Tab>연도 순서대로</Tab>
